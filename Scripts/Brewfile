@@ -3,3 +3,6 @@ brew 'git'
 
 # Editors
 brew 'emacs'
+
+# Security
+cask 'keepassx'
