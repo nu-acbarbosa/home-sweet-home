@@ -1,2 +1,5 @@
 # Development Tools
 brew 'git'
+
+# Editors
+brew 'emacs'
