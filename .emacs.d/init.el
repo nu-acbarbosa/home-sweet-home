@@ -22,6 +22,9 @@
 (use-package straight
   :custom (straight-use-package-by-default t))
 
+;; Deactivate backup files
+(setq make-backup-files nil)
+
 ;; Load specific configuration files
 (defun load-configurations (dir)
   (let ((load-config (lambda (config-file-name)
