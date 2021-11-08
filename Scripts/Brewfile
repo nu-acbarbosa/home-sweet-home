@@ -11,3 +11,4 @@ cask 'keepassx'
 
 # Applications
 cask 'firefox'
+cask 'slack'
