@@ -21,3 +21,10 @@
 ;; Configures use-package to always use straight.el
 (use-package straight
   :custom (straight-use-package-by-default t))
+
+;; Load specific configuration files
+(defun load-configurations (dir)
+  (let ((load-config (lambda (config-file-name)
+		       (load-file (concat (file-name-as-directory dir) config-file-name)))))
+    (mapc load-config (directory-files dir nil "\\.el$"))))
+(load-configurations "~/.emacs.d/config")
