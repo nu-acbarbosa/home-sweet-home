@@ -1,4 +1,5 @@
 tap 'homebrew/cask'
+tap 'homebrew/cask-drivers'
 
 # Development Tools
 brew 'git'
@@ -8,6 +9,7 @@ brew 'emacs'
 
 # Security
 cask 'keepassx'
+cask 'yubico-authenticator'
 
 # Applications
 cask 'firefox'
