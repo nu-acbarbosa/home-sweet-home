@@ -4,3 +4,4 @@
 !.emacs.d/**
 !Scripts/
 !Scripts/**
+!.zshrc
