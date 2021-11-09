@@ -3,6 +3,7 @@ tap 'homebrew/cask-drivers'
 
 # Development Tools
 brew 'git'
+brew 'cmake'
 
 # Editors
 brew 'emacs'
