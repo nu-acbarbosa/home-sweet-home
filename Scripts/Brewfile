@@ -1,5 +1,6 @@
 tap 'homebrew/cask'
 tap 'homebrew/cask-drivers'
+tap 'homebrew/cask-fonts'
 
 # Development Tools
 brew 'git'
@@ -7,6 +8,9 @@ brew 'cmake'
 
 # Editors
 brew 'emacs'
+
+# Fonts
+cask 'font-hack'
 
 # Security
 cask 'keepassx'
