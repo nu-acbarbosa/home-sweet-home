@@ -2,12 +2,14 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-drivers'
 tap 'homebrew/cask-fonts'
 tap 'AdoptOpenJDK/openjdk'
+tap 'clojure-lsp/brew'
 
 # Development Tools
 brew 'git'
 brew 'cmake'
 cask 'adoptopenjdk11'
 brew 'leiningen'
+brew 'clojure-lsp-native'
 
 # Editors
 brew 'emacs'

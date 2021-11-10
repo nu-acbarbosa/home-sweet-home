@@ -17,6 +17,8 @@
 
 ;; Install use-package
 (straight-use-package 'use-package)
+(setq use-package-hook-name-suffix nil)
+(setq debug-on-error t)
 
 ;; Configures use-package to always use straight.el
 (use-package straight
