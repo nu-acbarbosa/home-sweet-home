@@ -1,3 +1,12 @@
+(use-package cider
+  :bind (:map cider-repl-mode-map
+	      ("C-r l" . cider-repl-clear-buffer))
+  :config
+  (setq cider-font-lock-dynamically nil
+	cider-dynamic-indentation nil
+	cider-eldoc-display-for-symbol-at-point nil
+	cider-eldoc-display-context-dependent-info nil))
+
 (use-package clojure-mode
   :bind (:map clojure-mode-map
 	      ("C-c -" . hs-hide-all)
