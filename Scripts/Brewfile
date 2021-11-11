@@ -24,6 +24,7 @@ cask 'yubico-authenticator'
 # Applications
 cask 'firefox'
 cask 'slack'
+cask 'spotify'
 
 # Nucli dependencies
 brew 'bash'
