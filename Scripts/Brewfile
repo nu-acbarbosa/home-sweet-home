@@ -10,6 +10,7 @@ brew 'cmake'
 cask 'adoptopenjdk11'
 brew 'leiningen'
 brew 'clojure-lsp-native'
+brew 'nvm'
 
 # Editors
 brew 'emacs'

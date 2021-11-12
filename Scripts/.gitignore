@@ -2,3 +2,5 @@
 !.gitignore
 !*.sh
 !Brewfile
+!shell_initialization/
+!shell_initialization/**
