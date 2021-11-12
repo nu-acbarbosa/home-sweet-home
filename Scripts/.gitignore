@@ -4,3 +4,4 @@
 !Brewfile
 !shell_initialization/
 !shell_initialization/**
+!node_global_modules

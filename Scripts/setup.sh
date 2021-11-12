@@ -26,3 +26,8 @@ brew_bash="$(brew --prefix)/bin/bash"
 . "$(brew --prefix nvm)/nvm.sh"
 nvm install 'lts/*'
 nvm alias default 'lts/*'
+while IFS= read -r module
+do
+    npm install -g "${module}"
+    echo "${module}"
+done < "${SCRIPT_DIR}/node_global_modules"
