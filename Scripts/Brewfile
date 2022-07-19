@@ -9,11 +9,17 @@ brew 'git'
 brew 'cmake'
 cask 'adoptopenjdk11'
 brew 'leiningen'
+brew 'clojure'
 brew 'clojure-lsp-native'
 brew 'nvm'
+cask 'docker'
 
 # Editors
 brew 'emacs'
+
+# Data Analysis
+brew 'r'
+cask 'rstudio'
 
 # Fonts
 cask 'font-hack'
@@ -21,6 +27,8 @@ cask 'font-hack'
 # Security
 cask 'keepassx'
 cask 'yubico-authenticator'
+cask 'gpg-suite'
+brew 'ykman'
 
 # Applications
 cask 'firefox'
