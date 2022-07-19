@@ -16,4 +16,6 @@
 	 (clojure-mode-hook . hs-minor-mode)
 	 (clojure-mode-hook . lsp))
   :config
-  (setq lsp-clojure-server-command '("bash" "-c" "clojure-lsp")))
+  (setq lsp-clojure-server-command '("bash" "-c" "clojure-lsp")
+	lsp-keep-workspace-alive nil
+	lsp-ui-doc-enable nil))
