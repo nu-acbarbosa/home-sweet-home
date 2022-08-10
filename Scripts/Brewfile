@@ -34,6 +34,7 @@ brew 'ykman'
 cask 'firefox'
 cask 'slack'
 cask 'spotify'
+cask 'discord'
 
 # Nucli dependencies
 brew 'bash'
