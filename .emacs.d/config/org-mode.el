@@ -9,6 +9,8 @@
    ("<f9> o" . org-agenda-clock-out))
   :hook (org-mode-hook . visual-line-mode)
   :config
+  ;; Configuring habits
+  (add-to-list 'org-modules 'org-habit)
   ;; Configuring task types
   (setq org-todo-keywords
         '((sequence "TODO(t!)" "IN PROGRESS(p!)" "BLOCKED(b@/!)" "IN REVIEW(r!)" "|" "DONE(d!)")
