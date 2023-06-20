@@ -18,4 +18,5 @@
   :config
   (setq lsp-clojure-server-command '("bash" "-c" "clojure-lsp")
 	lsp-keep-workspace-alive nil
-	lsp-ui-doc-enable nil))
+	lsp-ui-doc-enable nil
+	lsp-lens-enable nil))
