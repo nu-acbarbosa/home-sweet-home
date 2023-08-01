@@ -61,3 +61,6 @@ brew 'awscli'
 brew 'jq'
 brew 'node'
 brew 'fzf'
+
+# Emacs dependencies
+brew 'libgtool'
