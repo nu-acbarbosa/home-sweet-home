@@ -14,6 +14,10 @@ fi
 brew update && brew upgrade
 brew bundle --cleanup -v --file="${SCRIPT_DIR}/Brewfile"
 
+# Linking Java 17 to make it available to System's Java Wrappers
+sudo ln -sfn $HOMEBREW_PREFIX/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk
+brew link openjdk@17
+
 # Adds brew's bash to list of shells
 brew_bash="$(brew --prefix)/bin/bash"
 ! grep -q "${brew_bash}" /etc/shells && echo "${brew_bash}" | sudo tee -a /etc/shells

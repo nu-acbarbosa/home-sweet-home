@@ -1,7 +1,5 @@
-tap 'homebrew/cask'
 tap 'homebrew/cask-drivers'
 tap 'homebrew/cask-fonts'
-tap 'AdoptOpenJDK/openjdk'
 tap 'clojure-lsp/brew'
 tap 'borkdude/brew'
 
